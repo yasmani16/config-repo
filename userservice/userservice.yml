@@ -3,6 +3,6 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: localhost:3306/datamarketplace
+    url: jdbc:mysql:localhost:3306/datamarketplace
     username: datamarketplace
     password: datamarketplace
