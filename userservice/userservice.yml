@@ -7,5 +7,5 @@ spring:
     username: datamarketplace
     password: datamarketplace
 
-liquidbase:
-  change-log: classpath:db/changelog/liquidbase-changelog.xml
+liquibase:
+  change-log: classpath:db/changelog/liquibase-changelog.xml
