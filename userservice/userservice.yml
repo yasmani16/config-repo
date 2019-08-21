@@ -8,4 +8,4 @@ spring:
     password: datamarketplace
 
 liquidbase:
-  change-log: classpath:db/changelog/liquibase-changelog.xml
+  change-log: classpath:db/changelog/liquidbase-changelog.xml
