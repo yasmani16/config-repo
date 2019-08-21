@@ -6,6 +6,3 @@ spring:
     url: jdbc:mysql://192.168.1.8:3306/datamarketplace
     username: datamarketplace
     password: datamarketplace
-
-liquibase:
-  change-log: classpath:db/changelog/liquibase-changelog.xml
