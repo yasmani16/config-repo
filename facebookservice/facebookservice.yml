@@ -8,3 +8,12 @@ spring:
     url: jdbc:mysql://database:3306/datamarketplace
     username: datamarketplace
     password: datamarketplace
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
